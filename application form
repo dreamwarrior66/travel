@@ -1,0 +1,50 @@
+<html>
+<head>
+</head>
+<body>
+<PRE>
+<h1>    			APPILICATION FORM<h1>
+</PRE>
+<form>
+<fieldset>
+<legend >Enter yoyr details</legend>
+<p>Enter your Name :</p><br>
+
+<input type ="text" name="first name" placeholder="Enter your name"><br>
+<p>Enter your Email</p>
+<input type ="email" name="email" placeholder="Enter your email"><br>
+<p>Enter your Password</p>
+<input type ="password" name="password" placeholder="password"><br>
+
+<p>Enter your Age</p>
+<input type ="number" name="age" placeholder="Enter your age">
+ <br>
+
+<label for="gender">Gender:</label><br>
+<input type="radio" id="gender" name"gender" value="male">MALE<br>
+<input type="radio" id="gender" name"gender" value="female">FEMALE
+<br>
+<P> SELECT YOURS WELL LANGUAGES<P>
+<select name="dropdown"
+<option>C-LANGUAGE</option>
+<option>C++</option>
+<option>JAVA</option>
+<option>JAVASCRIPT</option>
+<option>PYTHON</option>
+</select>
+<p>select your inter course</p>
+<input type ="checkbox" name="maths" value="on">maths<br>
+<input type ="checkbox" name="science" value="on">science<br>
+<input type="file" name="fileupload" accept="document"><br>
+
+<p>please submit after completed</p>
+<a href="submit.html" >
+<input type="button" name="submit" value="submit"></a>
+
+
+</a>
+</fiedset>
+</form>
+</body>
+
+</html>
